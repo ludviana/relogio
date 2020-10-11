@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Relogio</title>
+    
+    <script src="relogio.js" async></script>
+
+    <style>
+        body{
+            background-color: rgb(37, 37, 202);
+            
+        }
+        #corpo{
+            background-color: black;
+            border: 1px solid white;
+            border-radius: 70px 15px;
+            box-sizing: border-box;
+            width: 50%;
+            text-align: center;         
+            margin: 200px 100px 200px 350px ;
+            box-shadow: 1px 12px 15px black;
+        }
+        #data{
+            color:red;
+
+        }
+        #hora{
+            color: red;
+        }
+    </style>
+    
+</head>
+<body onload="horas(),diaAtual()">
+
+    <div id="corpo">
+        <h1 id="data" ></h1>
+        <h1 id="hora"></h1>
+    </div> 
+
+</body>
+</html>
